@@ -29,7 +29,7 @@ int main()
 	int i, j, swap, trio;
 
 	for(i=0; i<COUNT; i++){
-		for(j=0; i<SHUFF; j++){
+		for(j=0; j<SHUFF; j++){
 
 			trio = (rand() % 3)*3;
 			swap = rand() & 1;
